@@ -23,7 +23,8 @@ int main(int argc, char *argv[])
 		//.16 sonraki basamaga göre 15.basamagı yuvarlar.
 		//c'de pythondaki gibi precision kütüphanesi yok yada ben bulamadım.
 		//kaynak:http://stackoverflow.com/questions/9213340/how-to-set-precision-of-a-float
-	}
+	}	//2.7182818284590455   asagida basamak azaldigindan sayiyi yuvarlanmış sekilde yazdiriyor.
+		//2.718281828459046 
 	
 	return 0;
 }
