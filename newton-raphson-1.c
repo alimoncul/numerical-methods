@@ -16,7 +16,8 @@ float fi(float x) // f'in turevini tanimliyoruz.
 }
 float hatapayi(float x1,float x2) // hatapayini hesaplayan fonksiyonu tanimliyoruz.
 {
-	return ((x1-x2)/x1);
+	float hata=((x1-x2)/x2);
+	return hata;
 }
 int main(int argc, char *argv[]) 
 {
